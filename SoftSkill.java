@@ -332,7 +332,8 @@ public class SoftSkill {
 
     private String mLearningSituation;
 
-    public Museum(@Nullable String name, String LearningSituation, int Level, String creationDate) {
+ //o nome do construtor da classe deve ser o mesmo nome da classe
+    public SoftSkill(@Nullable String name, String LearningSituation, int Level, String creationDate) {
         mName = name;
         mLearningSituation = LearningSituation;
         mLevel = Level;
